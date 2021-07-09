@@ -3,7 +3,9 @@
 # Base docker image
 FROM debian:buster-slim
 
-LABEL maintainer "Fabio Rodrigues Ribeiro <farribeiro@gmail.com>"
+# Forked from https://github.com/farribeiro/wscef-docker
+# LABEL maintainer "Fabio Rodrigues Ribeiro <farribeiro@gmail.com>"
+LABEL maintainer "José Henrique Targino Dias Góis <josegoismail@gmail.com>"
 
 ARG USER=ff
 
