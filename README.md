@@ -1,4 +1,4 @@
-# wscef-docker
+# wscef-docker < trimmed repository readme from original >
 
 [![Join the chat at https://gitter.im/farribeiro/wscef-docker](https://badges.gitter.im/farribeiro/wscef-docker.svg)](https://gitter.im/farribeiro/wscef-docker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -27,14 +27,3 @@ since environments and volumes are set on `docker-compose.yml`.
 **To purge everthing:** `docker-compose down --rmi all`, thanks[1]
 
 **To force replace the container:** `docker-compose up --force-recreate`, thanks[1]
-
-**PS:** Reports that the warsaw daemon for CEF works for:
-- BB site: https://github.com/farribeiro/wscef-docker/issues/9#issuecomment-308244119 
-- Sicredi ( https://github.com/farribeiro/wscef-docker/pull/72#issuecomment-573244722)
-
-~~**PS:** you must run Docker using a GNU/Linux distro running xorg.
-Be aware some installations may run another display server, such as Wayland.~~
-
-The latest firefox release support wayland, not tested with xauth
-
-[1] https://github.com/jsalatiel/wsbb-docker/commit/72e42bb5f04fbe8eb1f7f3e6226975aba137dcb5#diff-3254677a7917c6c01f55212f86c57fbf
