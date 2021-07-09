@@ -1,4 +1,5 @@
-# wscef-docker < trimmed repository readme from original >
+# wscef-docker 
+## < trimmed repository readme from original >
 
 [![Join the chat at https://gitter.im/farribeiro/wscef-docker](https://badges.gitter.im/farribeiro/wscef-docker.svg)](https://gitter.im/farribeiro/wscef-docker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
